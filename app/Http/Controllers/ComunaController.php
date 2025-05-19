@@ -21,7 +21,7 @@ class ComunaController extends Controller
         ->get();
         return view('comuna.index',['comunas' => $comunas]);
     }
-
+    
     /**
      * Show the form for creating a new resource.
      *
